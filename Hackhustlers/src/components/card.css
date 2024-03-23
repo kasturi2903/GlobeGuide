@@ -1,0 +1,92 @@
+.card{
+    background-color: wheat;
+    height: 400px;
+    width: 250px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+
+}
+.row1{
+    height:  309.66px;
+   
+    background-color: beige;
+}
+.row1 img{
+    height: 309.66px;
+
+    width: 250px;
+}
+.row2{
+    height: 40px;
+    padding: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+}
+
+
+h5 {
+    margin-bottom: 5px; /* Add bottom margin to title */
+    font-size: larger; /* Adjust title font size */
+    font-family:'AmstelvarAlpha';
+    font-style: italic;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 16px; /* Adjust price font size */
+    color: #555; /* Change price text color */
+    margin-bottom: 0px;
+}
+.row2 {
+    padding: 10px; /* Add padding for title and price */
+    padding-bottom: 20px; /* Additional bottom padding */
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    align-items: left; /* Align items to the left */
+    justify-content: center; /* Center content vertically */
+    padding-bottom: 60px;
+}
+.buy-button {
+    
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    margin-top: 5px;
+    padding: 10px 8px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    
+  }
+  
+  .buy-button:hover {
+    background-color: #0056b3;
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+         
+  
+ 

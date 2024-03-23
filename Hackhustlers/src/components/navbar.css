@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 5px;
+   
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    margin-right: 20px;
+    font-size: larger;
+    font-family:Georgia, serif;
+    font-size: x-large;
+
+  }
+  
+  .navbar ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #FFDAB9;
+  }
+  .title{
+    font-family:  Harrington;
+    color: #DAB9FF;
+    font-size: xx-large;
+  }
+  .navbar ul li a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover for the link */
+}

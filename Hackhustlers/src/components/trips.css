@@ -1,0 +1,29 @@
+.search1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+    background-color:#F3E9D2;
+    background-image: url("https://unsplash.com/photos/low-angle-photography-of-airliner-during-flight-UdUbSPwbv2c?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash");
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.flight_box {
+    background-color:white;
+    height: 520px;
+    width: 300px;
+    padding: 20px;
+    justify-content: center;
+    margin: auto; /* Center horizontally */
+    margin-top: 40px;
+    border: 2px solid grey;
+    border-radius: 10px;
+
+}
+         
+
+ 
+

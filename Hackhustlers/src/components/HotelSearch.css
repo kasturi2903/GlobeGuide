@@ -1,0 +1,24 @@
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+    background-color:#F3E9D2;
+}
+
+.hotel_box {
+    background-color:white;
+    height: 520px;
+    width: 300px;
+    padding: 20px;
+    justify-content: center;
+    margin: auto; /* Center horizontally */
+    margin-top: 40px;
+    border: 2px solid grey;
+    border-radius: 10px;
+
+}
+         
+
+ 
+
